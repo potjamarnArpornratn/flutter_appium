@@ -26,7 +26,9 @@ reports/*.html
 reports/*.png
 reports/*.xml
 *.log
-logs/
+logs/*
+!logs/README.md
+!logs/sample_test_run.log
 
 # IDE
 .vscode/
@@ -38,6 +40,9 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Documentation
+# Keep images in docs/images/
 
 # Allure
 allure-results/

@@ -2,6 +2,15 @@
 
 Automated testing framework for Flutter mobile app using Appium and Python with comprehensive logging.
 
+## App Under Test
+
+![Flutter App Home Page](docs/images/flutter_home_page.png)
+
+The test framework validates a Flutter app with:
+- **Gmail Button**: Opens Gmail in browser
+- **Counter Display**: Shows number of button presses
+- **Increment Button**: FAB that increments counter
+
 ## Features
 
 - ✅ Page Object Model (POM) design pattern
@@ -243,6 +252,28 @@ To run in CI/CD pipeline:
 # Example for GitHub Actions
 - name: Setup Python
   uses: actions/setup-python@v4
+  with:
+    python-version: '3.12'
+
+- name: Install dependencies
+  run: |
+    pip install -r requirements.txt
+
+- name: Run tests
+  run: |
+    pytest -v --html=reports/report.html
+```
+
+## Screenshots
+
+See [docs/images/](docs/images/) for app screenshots showing the elements being tested.
+
+To capture your own screenshot:
+```powershell
+adb shell screencap -p /sdcard/screenshot.png
+adb pull /sdcard/screenshot.png docs/images/flutter_home_page.png
+```
+
 ## Contact
 
 For issues or questions, check:

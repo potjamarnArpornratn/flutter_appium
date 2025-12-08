@@ -1,0 +1,62 @@
+2025-12-07 23:00:17,980 - conftest - INFO - ==================================================
+2025-12-07 23:00:17,981 - conftest - INFO - Starting Test Session
+2025-12-07 23:00:17,982 - conftest - INFO - Session started at: 2025-12-07 23:00:17
+2025-12-07 23:00:17,983 - conftest - INFO - ==================================================
+2025-12-07 23:00:17,984 - conftest - INFO - [Setup] Starting Appium driver...
+2025-12-07 23:00:17,984 - conftest - INFO - Connecting to Appium server: http://localhost:4723
+2025-12-07 23:00:17,985 - conftest - INFO - Device: emulator-5554, Platform: Android 16
+2025-12-07 23:00:34,259 - conftest - INFO - Appium driver started successfully
+2025-12-07 23:00:34,264 - conftest - INFO - Implicit wait set to 10 seconds
+2025-12-07 23:00:34,265 - conftest - INFO - Waiting for app to initialize...
+2025-12-07 23:00:39,266 - conftest - INFO - App initialized
+2025-12-07 23:00:39,267 - tests.test_gmail_button - INFO - Starting test: test_gmail_button_visible
+2025-12-07 23:00:39,268 - tests.test_gmail_button - INFO - Waiting for home page to load...
+2025-12-07 23:00:54,510 - tests.test_gmail_button - INFO - Verifying home page loaded
+2025-12-07 23:00:54,564 - pages.home_page - INFO - Home page verified by package name
+2025-12-07 23:00:54,564 - tests.test_gmail_button - INFO - [PASS] Home page loaded successfully
+2025-12-07 23:00:54,566 - tests.test_gmail_button - INFO - Test completed: test_gmail_button_visible
+2025-12-07 23:00:54,567 - conftest - INFO - [Teardown] Closing Appium driver...
+2025-12-07 23:00:55,297 - conftest - INFO - Appium driver closed
+2025-12-07 23:00:55,299 - conftest - INFO - [Setup] Starting Appium driver...
+2025-12-07 23:00:55,300 - conftest - INFO - Connecting to Appium server: http://localhost:4723
+2025-12-07 23:00:55,301 - conftest - INFO - Device: emulator-5554, Platform: Android 16
+2025-12-07 23:01:07,634 - conftest - INFO - Appium driver started successfully
+2025-12-07 23:01:07,641 - conftest - INFO - Implicit wait set to 10 seconds
+2025-12-07 23:01:07,641 - conftest - INFO - Waiting for app to initialize...
+2025-12-07 23:01:12,643 - conftest - INFO - App initialized
+2025-12-07 23:01:12,643 - tests.test_gmail_button - INFO - Starting test: test_click_gmail_button
+2025-12-07 23:01:12,644 - tests.test_gmail_button - INFO - Waiting for home page to load...
+2025-12-07 23:01:27,907 - tests.test_gmail_button - INFO - Attempting to click Gmail button
+2025-12-07 23:01:28,034 - pages.home_page - INFO - Gmail button clicked successfully
+2025-12-07 23:01:28,035 - tests.test_gmail_button - INFO - [PASS] Gmail button clicked successfully
+2025-12-07 23:01:28,035 - tests.test_gmail_button - INFO - Waiting for browser to launch...
+2025-12-07 23:01:33,373 - tests.test_gmail_button - INFO - Available contexts: ['NATIVE_APP', 'WEBVIEW_chrome']
+2025-12-07 23:01:33,374 - tests.test_gmail_button - INFO - Returning to app...
+2025-12-07 23:01:35,572 - tests.test_gmail_button - INFO - Test completed: test_click_gmail_button
+2025-12-07 23:01:35,573 - conftest - INFO - [Teardown] Closing Appium driver...
+2025-12-07 23:01:36,785 - conftest - INFO - Appium driver closed
+2025-12-07 23:01:36,788 - conftest - INFO - [Setup] Starting Appium driver...
+2025-12-07 23:01:36,789 - conftest - INFO - Connecting to Appium server: http://localhost:4723
+2025-12-07 23:01:36,790 - conftest - INFO - Device: emulator-5554, Platform: Android 16
+2025-12-07 23:01:49,698 - conftest - INFO - Appium driver started successfully
+2025-12-07 23:01:49,703 - conftest - INFO - Implicit wait set to 10 seconds
+2025-12-07 23:01:49,704 - conftest - INFO - Waiting for app to initialize...
+2025-12-07 23:01:54,705 - conftest - INFO - App initialized
+2025-12-07 23:01:54,705 - tests.test_gmail_button - INFO - Starting test: test_increment_counter_then_gmail
+2025-12-07 23:01:54,706 - tests.test_gmail_button - INFO - Waiting for home page to load...
+2025-12-07 23:02:10,163 - tests.test_gmail_button - INFO - Initial counter value: 0
+2025-12-07 23:02:10,164 - tests.test_gmail_button - INFO - Clicking increment button
+2025-12-07 23:02:10,318 - pages.home_page - INFO - Increment button clicked successfully
+2025-12-07 23:02:11,481 - tests.test_gmail_button - INFO - New counter value: 1
+2025-12-07 23:02:11,482 - tests.test_gmail_button - INFO - [PASS] Counter incremented successfully
+2025-12-07 23:02:11,482 - tests.test_gmail_button - INFO - Attempting to click Gmail button
+2025-12-07 23:02:11,594 - pages.home_page - INFO - Gmail button clicked successfully
+2025-12-07 23:02:11,595 - tests.test_gmail_button - INFO - [PASS] Gmail button clicked successfully
+2025-12-07 23:02:13,596 - tests.test_gmail_button - INFO - Returning to app...
+2025-12-07 23:02:14,873 - tests.test_gmail_button - INFO - Test completed: test_increment_counter_then_gmail
+2025-12-07 23:02:14,874 - conftest - INFO - [Teardown] Closing Appium driver...
+2025-12-07 23:02:16,020 - conftest - INFO - Appium driver closed
+2025-12-07 23:02:16,021 - conftest - INFO - ==================================================
+2025-12-07 23:02:16,021 - conftest - INFO - Test Session Completed
+2025-12-07 23:02:16,021 - conftest - INFO - Session ended at: 2025-12-07 23:02:16
+2025-12-07 23:02:16,022 - conftest - INFO - ==================================================
