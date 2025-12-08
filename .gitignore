@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Test reports and logs
+reports/*.html
+reports/*.png
+reports/*.xml
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Allure
+allure-results/
+allure-report/
+
+# Temporary files
+*.tmp
+*.temp
