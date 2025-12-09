@@ -1,5 +1,10 @@
 """
 Pytest configuration and fixtures
+
+This module provides pytest configuration and fixtures for Appium test execution including:
+- Driver setup and teardown
+- Session-level logging
+- Test markers configuration
 """
 import pytest
 from appium import webdriver
@@ -27,7 +32,11 @@ logger = logging.getLogger(__name__)
 
 @pytest.fixture(scope="function")
 def driver():
-    """Create and tear down Appium driver"""
+    """Create and tear down Appium driver for each test function
+    
+    Yields:
+        WebDriver: Appium driver instance for the test
+    """
     # Initialize driver
     logger.info("[Setup] Starting Appium driver...")
     logger.info(f"Connecting to Appium server: {Config.APPIUM_SERVER}")
@@ -61,7 +70,7 @@ def driver():
 
 @pytest.fixture(scope="session", autouse=True)
 def setup_session():
-    """Session-level setup"""
+    """Session-level setup and teardown for test execution"""
     logger.info("="*50)
     logger.info("Starting Test Session")
     logger.info(f"Session started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -74,7 +83,7 @@ def setup_session():
 
 
 def pytest_configure(config):
-    """Configure pytest"""
+    """Configure pytest with custom markers"""
     config.addinivalue_line(
         "markers", "smoke: mark test as smoke test"
     )

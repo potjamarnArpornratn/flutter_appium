@@ -1,9 +1,18 @@
 """
 Appium Configuration for Flutter App Testing
+
+This module contains all configuration settings for Appium test execution including:
+- Appium server settings
+- Device capabilities
+- App details
+- Timeout values
 """
 import os
 
+
 class Config:
+    """Configuration class for Appium test framework"""
+    
     # Appium Server
     APPIUM_SERVER = "http://localhost:4723"
     
@@ -11,7 +20,7 @@ class Config:
     APP_PACKAGE = "com.example.my_app"
     APP_ACTIVITY = ".MainActivity"
     
-    # APK Path
+    # APK Path - auto-resolved from project structure
     APK_PATH = os.path.join(
         os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
         "flutter", "my_app", "build", "app", "outputs", "flutter-apk", "app-debug.apk"
@@ -19,21 +28,25 @@ class Config:
     
     # Device Configuration
     PLATFORM_NAME = "Android"
-    PLATFORM_VERSION = "16"  # Adjust based on your emulator
+    PLATFORM_VERSION = "16"  # Android API level
     DEVICE_NAME = "emulator-5554"
     AUTOMATION_NAME = "UiAutomator2"
     
     # Test Configuration
-    NO_RESET = False
-    FULL_RESET = False
+    NO_RESET = False  # Don't reset app state between sessions
+    FULL_RESET = False  # Don't uninstall app between sessions
     
-    # Timeouts
-    IMPLICIT_WAIT = 10
-    EXPLICIT_WAIT = 20
+    # Timeouts (in seconds)
+    IMPLICIT_WAIT = 10  # Default wait for element finding
+    EXPLICIT_WAIT = 20  # Maximum wait for explicit waits
     
     @staticmethod
     def get_desired_capabilities():
-        """Returns desired capabilities for Appium"""
+        """Returns desired capabilities for Appium session
+        
+        Returns:
+            dict: Appium capabilities dictionary
+        """
         return {
             'platformName': Config.PLATFORM_NAME,
             'platformVersion': Config.PLATFORM_VERSION,

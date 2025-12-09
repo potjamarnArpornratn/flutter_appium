@@ -1,62 +1,69 @@
-2025-12-07 23:00:17,980 - conftest - INFO - ==================================================
-2025-12-07 23:00:17,981 - conftest - INFO - Starting Test Session
-2025-12-07 23:00:17,982 - conftest - INFO - Session started at: 2025-12-07 23:00:17
-2025-12-07 23:00:17,983 - conftest - INFO - ==================================================
-2025-12-07 23:00:17,984 - conftest - INFO - [Setup] Starting Appium driver...
-2025-12-07 23:00:17,984 - conftest - INFO - Connecting to Appium server: http://localhost:4723
-2025-12-07 23:00:17,985 - conftest - INFO - Device: emulator-5554, Platform: Android 16
-2025-12-07 23:00:34,259 - conftest - INFO - Appium driver started successfully
-2025-12-07 23:00:34,264 - conftest - INFO - Implicit wait set to 10 seconds
-2025-12-07 23:00:34,265 - conftest - INFO - Waiting for app to initialize...
-2025-12-07 23:00:39,266 - conftest - INFO - App initialized
-2025-12-07 23:00:39,267 - tests.test_gmail_button - INFO - Starting test: test_gmail_button_visible
-2025-12-07 23:00:39,268 - tests.test_gmail_button - INFO - Waiting for home page to load...
-2025-12-07 23:00:54,510 - tests.test_gmail_button - INFO - Verifying home page loaded
-2025-12-07 23:00:54,564 - pages.home_page - INFO - Home page verified by package name
-2025-12-07 23:00:54,564 - tests.test_gmail_button - INFO - [PASS] Home page loaded successfully
-2025-12-07 23:00:54,566 - tests.test_gmail_button - INFO - Test completed: test_gmail_button_visible
-2025-12-07 23:00:54,567 - conftest - INFO - [Teardown] Closing Appium driver...
-2025-12-07 23:00:55,297 - conftest - INFO - Appium driver closed
-2025-12-07 23:00:55,299 - conftest - INFO - [Setup] Starting Appium driver...
-2025-12-07 23:00:55,300 - conftest - INFO - Connecting to Appium server: http://localhost:4723
-2025-12-07 23:00:55,301 - conftest - INFO - Device: emulator-5554, Platform: Android 16
-2025-12-07 23:01:07,634 - conftest - INFO - Appium driver started successfully
-2025-12-07 23:01:07,641 - conftest - INFO - Implicit wait set to 10 seconds
-2025-12-07 23:01:07,641 - conftest - INFO - Waiting for app to initialize...
-2025-12-07 23:01:12,643 - conftest - INFO - App initialized
-2025-12-07 23:01:12,643 - tests.test_gmail_button - INFO - Starting test: test_click_gmail_button
-2025-12-07 23:01:12,644 - tests.test_gmail_button - INFO - Waiting for home page to load...
-2025-12-07 23:01:27,907 - tests.test_gmail_button - INFO - Attempting to click Gmail button
-2025-12-07 23:01:28,034 - pages.home_page - INFO - Gmail button clicked successfully
-2025-12-07 23:01:28,035 - tests.test_gmail_button - INFO - [PASS] Gmail button clicked successfully
-2025-12-07 23:01:28,035 - tests.test_gmail_button - INFO - Waiting for browser to launch...
-2025-12-07 23:01:33,373 - tests.test_gmail_button - INFO - Available contexts: ['NATIVE_APP', 'WEBVIEW_chrome']
-2025-12-07 23:01:33,374 - tests.test_gmail_button - INFO - Returning to app...
-2025-12-07 23:01:35,572 - tests.test_gmail_button - INFO - Test completed: test_click_gmail_button
-2025-12-07 23:01:35,573 - conftest - INFO - [Teardown] Closing Appium driver...
-2025-12-07 23:01:36,785 - conftest - INFO - Appium driver closed
-2025-12-07 23:01:36,788 - conftest - INFO - [Setup] Starting Appium driver...
-2025-12-07 23:01:36,789 - conftest - INFO - Connecting to Appium server: http://localhost:4723
-2025-12-07 23:01:36,790 - conftest - INFO - Device: emulator-5554, Platform: Android 16
-2025-12-07 23:01:49,698 - conftest - INFO - Appium driver started successfully
-2025-12-07 23:01:49,703 - conftest - INFO - Implicit wait set to 10 seconds
-2025-12-07 23:01:49,704 - conftest - INFO - Waiting for app to initialize...
-2025-12-07 23:01:54,705 - conftest - INFO - App initialized
-2025-12-07 23:01:54,705 - tests.test_gmail_button - INFO - Starting test: test_increment_counter_then_gmail
-2025-12-07 23:01:54,706 - tests.test_gmail_button - INFO - Waiting for home page to load...
-2025-12-07 23:02:10,163 - tests.test_gmail_button - INFO - Initial counter value: 0
-2025-12-07 23:02:10,164 - tests.test_gmail_button - INFO - Clicking increment button
-2025-12-07 23:02:10,318 - pages.home_page - INFO - Increment button clicked successfully
-2025-12-07 23:02:11,481 - tests.test_gmail_button - INFO - New counter value: 1
-2025-12-07 23:02:11,482 - tests.test_gmail_button - INFO - [PASS] Counter incremented successfully
-2025-12-07 23:02:11,482 - tests.test_gmail_button - INFO - Attempting to click Gmail button
-2025-12-07 23:02:11,594 - pages.home_page - INFO - Gmail button clicked successfully
-2025-12-07 23:02:11,595 - tests.test_gmail_button - INFO - [PASS] Gmail button clicked successfully
-2025-12-07 23:02:13,596 - tests.test_gmail_button - INFO - Returning to app...
-2025-12-07 23:02:14,873 - tests.test_gmail_button - INFO - Test completed: test_increment_counter_then_gmail
-2025-12-07 23:02:14,874 - conftest - INFO - [Teardown] Closing Appium driver...
-2025-12-07 23:02:16,020 - conftest - INFO - Appium driver closed
-2025-12-07 23:02:16,021 - conftest - INFO - ==================================================
-2025-12-07 23:02:16,021 - conftest - INFO - Test Session Completed
-2025-12-07 23:02:16,021 - conftest - INFO - Session ended at: 2025-12-07 23:02:16
-2025-12-07 23:02:16,022 - conftest - INFO - ==================================================
+2025-12-08 18:48:16,884 - conftest - INFO - ==================================================
+2025-12-08 18:48:16,885 - conftest - INFO - Starting Test Session
+2025-12-08 18:48:16,886 - conftest - INFO - Session started at: 2025-12-08 18:48:16
+2025-12-08 18:48:16,886 - conftest - INFO - ==================================================
+2025-12-08 18:48:16,887 - conftest - INFO - [Setup] Starting Appium driver...
+2025-12-08 18:48:16,887 - conftest - INFO - Connecting to Appium server: http://localhost:4723
+2025-12-08 18:48:16,887 - conftest - INFO - Device: emulator-5554, Platform: Android 16
+2025-12-08 18:48:28,987 - conftest - INFO - Appium driver started successfully
+2025-12-08 18:48:28,993 - conftest - INFO - Implicit wait set to 10 seconds
+2025-12-08 18:48:28,993 - conftest - INFO - Waiting for app to initialize...
+2025-12-08 18:48:33,994 - conftest - INFO - App initialized
+2025-12-08 18:48:33,994 - tests.test_home_page - INFO - Starting test: test_all_buttons_visible
+2025-12-08 18:48:39,336 - tests.test_home_page - INFO - [PASS] Web Search button is visible
+2025-12-08 18:48:39,395 - tests.test_home_page - INFO - [PASS] Open Gmail button is visible
+2025-12-08 18:48:39,446 - tests.test_home_page - INFO - [PASS] Shopping List button is visible
+2025-12-08 18:48:39,447 - tests.test_home_page - INFO - Test completed: test_all_buttons_visible
+2025-12-08 18:48:39,448 - conftest - INFO - [Teardown] Closing Appium driver...
+2025-12-08 18:48:40,559 - conftest - INFO - Appium driver closed
+2025-12-08 18:48:40,560 - conftest - INFO - [Setup] Starting Appium driver...
+2025-12-08 18:48:40,562 - conftest - INFO - Connecting to Appium server: http://localhost:4723
+2025-12-08 18:48:40,562 - conftest - INFO - Device: emulator-5554, Platform: Android 16
+2025-12-08 18:48:51,459 - conftest - INFO - Appium driver started successfully
+2025-12-08 18:48:51,463 - conftest - INFO - Implicit wait set to 10 seconds
+2025-12-08 18:48:51,464 - conftest - INFO - Waiting for app to initialize...
+2025-12-08 18:48:56,465 - conftest - INFO - App initialized
+2025-12-08 18:48:56,465 - tests.test_home_page - INFO - Starting test: test_web_search_button_opens_browser
+2025-12-08 18:49:01,660 - pages.home_page - INFO - Web Search button clicked successfully
+2025-12-08 18:49:01,662 - tests.test_home_page - INFO - [PASS] Web Search button clicked successfully
+2025-12-08 18:49:04,774 - tests.test_home_page - INFO - [PASS] Browser opened with package: com.android.chrome
+2025-12-08 18:49:04,776 - pages.home_page - INFO - Returning to app from WebView...
+2025-12-08 18:49:09,200 - pages.home_page - INFO - Already back in Flutter app
+2025-12-08 18:49:11,202 - tests.test_home_page - INFO - Test completed: test_web_search_button_opens_browser
+2025-12-08 18:49:11,203 - conftest - INFO - [Teardown] Closing Appium driver...
+2025-12-08 18:49:12,427 - conftest - INFO - Appium driver closed
+2025-12-08 18:52:17,867 - tests.test_shopping_list - INFO - Starting test: test_add_single_item
+2025-12-08 18:52:23,283 - pages.home_page - INFO - Shopping List button clicked successfully
+2025-12-08 18:52:25,313 - pages.shopping_list_page - INFO - Shopping List page loaded - found header text
+2025-12-08 18:52:28,811 - pages.shopping_list_page - INFO - Clicking Add button (button 1: desc='null')
+2025-12-08 18:52:31,487 - pages.shopping_list_page - INFO - [PASS] Successfully added item: Milk (quantity: 2)
+2025-12-08 18:52:31,487 - tests.test_shopping_list - INFO - [PASS] Added Milk (quantity: 2)
+2025-12-08 18:52:33,598 - pages.shopping_list_page - INFO -   ✓ FOUND ITEM: 'Milk\nx2'
+2025-12-08 18:52:33,835 - pages.shopping_list_page - INFO - Found 1 items in shopping list
+2025-12-08 18:52:33,836 - tests.test_shopping_list - INFO - [PASS] Verified Milk is in shopping list
+2025-12-08 18:52:36,947 - tests.test_shopping_list - INFO - Test completed: test_add_single_item
+2025-12-08 18:52:36,948 - conftest - INFO - [Teardown] Closing Appium driver...
+2025-12-08 18:52:37,626 - conftest - INFO - Appium driver closed
+2025-12-08 18:54:20,473 - tests.test_shopping_list - INFO - Starting test: test_delete_item
+2025-12-08 18:54:26,639 - pages.home_page - INFO - Shopping List button clicked successfully
+2025-12-08 18:54:28,670 - pages.shopping_list_page - INFO - Shopping List page loaded - found header text
+2025-12-08 18:54:32,793 - pages.shopping_list_page - INFO - Clicking Add button (button 1: desc='null')
+2025-12-08 18:54:35,443 - pages.shopping_list_page - INFO - [PASS] Successfully added item: Orange (quantity: 3)
+2025-12-08 18:54:35,443 - tests.test_shopping_list - INFO - Added Orange for deletion test
+2025-12-08 18:54:37,566 - pages.shopping_list_page - INFO -   ✓ FOUND ITEM: 'Orange\nx3'
+2025-12-08 18:54:37,794 - pages.shopping_list_page - INFO - Found 1 items in shopping list
+2025-12-08 18:54:37,795 - tests.test_shopping_list - INFO - Initial item count: 1
+2025-12-08 18:54:38,293 - pages.shopping_list_page - INFO - Clicking delete button at index 1 for item 'Orange'
+2025-12-08 18:54:40,120 - pages.shopping_list_page - INFO - Found 0 items in shopping list
+2025-12-08 18:54:40,120 - pages.shopping_list_page - WARNING - No items found - check if item format has changed
+2025-12-08 18:54:40,120 - pages.shopping_list_page - INFO - [PASS] Successfully deleted item: Orange
+2025-12-08 18:54:40,121 - tests.test_shopping_list - INFO - [PASS] Deleted Orange
+2025-12-08 18:54:42,332 - pages.shopping_list_page - INFO - Found 0 items in shopping list
+2025-12-08 18:54:42,551 - tests.test_shopping_list - INFO - [PASS] Verified Orange was deleted
+2025-12-08 18:54:45,660 - tests.test_shopping_list - INFO - Test completed: test_delete_item
+2025-12-08 18:54:45,661 - conftest - INFO - [Teardown] Closing Appium driver...
+2025-12-08 18:54:46,369 - conftest - INFO - Appium driver closed
+2025-12-08 18:55:48,398 - conftest - INFO - ==================================================
+2025-12-08 18:55:48,398 - conftest - INFO - Test Session Completed
+2025-12-08 18:55:48,398 - conftest - INFO - Session ended at: 2025-12-08 18:55:48
+2025-12-08 18:55:48,399 - conftest - INFO - ==================================================
